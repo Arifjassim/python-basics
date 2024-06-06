@@ -35,3 +35,14 @@ if (d%2)==0:
     print("even")
 else:
     print("odd")
+
+f=int(input("enter a prime number"))
+if (f>1):
+    for i in range(2,f):
+        if (f%i)==0:
+            print("not a prime")
+            break
+    else:
+         print("prime number")
+else:
+    print("not a prime")
