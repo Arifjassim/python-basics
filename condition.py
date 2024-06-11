@@ -46,3 +46,37 @@ if (f>1):
          print("prime number")
 else:
     print("not a prime")
+
+    
+j=[10,20,30,20,30,40,20,50]
+j1=set(j)
+print(j1)
+k=[]
+#print(j)
+for i in j:
+    if i not in k:
+        k.append(i)
+print(k)
+
+std1={"name":"jassim","age":21,"place":"thalikulam"}
+for i,j in std1.items():
+    print(i,"-->",j)
+
+f=[1,2,2,3,3,3,4,4,4,4,]
+s=[]
+print(f)
+
+
+raw=5
+for i in range(raw):
+    for j in range(i):
+        print(i,end=" ")
+    print(' ')
+
+raw=11
+for i in range(raw):
+    for j in range(i):
+        print("*",end=" ")
+    print(' ')
+
+        
