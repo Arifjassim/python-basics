@@ -24,3 +24,10 @@ set6=set1.issuperset(set3)
 print(set6)
 for i in set1:
     print(i)
+
+
+mylist=["jassim","arif","pm"]
+print(mylist)    
+k=frozenset(mylist)
+print(mylist[1])
+print(type(mylist))
