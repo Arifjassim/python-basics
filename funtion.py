@@ -3,7 +3,7 @@ def my_name():
 my_name()
 
 
-def names(fname,lname):
+def names(fname,lname):#firs
     print(fname+" "+lname)
 names("jassim","arif")
 
@@ -12,7 +12,6 @@ def arbitrary(*kids):
     print(kids[2])
 arbitrary("tom","jerry","oggy","jack")
 arbitrary("a","b","c","d","e")
-
 
 def keyword(a,b,c):
     print(b)
@@ -52,5 +51,18 @@ def number(s):
     else:
         print("not a prime")
 number(f)
+
+
+maximum=[1,5,10,15]
+print(maximum)
+def max(b):
+    for i in b:
+        c=0
+        c=c+i
+    return c
+max(maximum)
+
+
+    
 
 

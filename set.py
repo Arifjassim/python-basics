@@ -26,7 +26,7 @@ for i in set1:
     print(i)
 
 
-mylist=["jassim","arif","pm"]
+mylist=["jassim","arif","pm","pm"]
 print(mylist)    
 k=frozenset(mylist)
 print(mylist[1])
